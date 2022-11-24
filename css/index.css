@@ -1,0 +1,32 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:hover{
+    color: #77ff00;
+}
+img{
+    width: 100%;
+
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+.carousel-item{
+    height: 38rem;
+}
+@media screen and (max-width:900px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+@media screen and (min-width:900px) {
+    .carousel-caption{
+        margin-bottom: 100px;
+    }
+}
+.container p{
+    text-align: center;
+}
